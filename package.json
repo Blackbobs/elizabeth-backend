@@ -12,17 +12,24 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@huggingface/hub": "^1.0.1",
+    "@huggingface/inference": "^3.3.4",
     "@octokit/rest": "^21.1.0",
+    "axios": "^1.7.9",
     "cors": "^2.8.5",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "fs-extra": "^11.3.0",
     "mongodb": "^6.13.0",
     "mongoose": "^8.10.0",
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "tmp": "^0.2.3"
   },
   "devDependencies": {
     "@types/cors": "^2.8.17",
     "@types/express": "^5.0.0",
+    "@types/fs-extra": "^11.0.4",
+    "@types/tmp": "^0.2.6",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.7.3"
   }
